@@ -9,10 +9,18 @@
 * **Preprocessing:** Pemisahan sampel klinis secara komputasional menjadi 2 kelompok utama: **Grup Dengue** dan **Grup Kontrol (Sehat)**.
 * **Analisis Statistik:** Penerapan model linear menggunakan package `limma` dengan ambang batas signifikansi *Adjusted p-value < 0.05* dan $|\log_2 \text{Fold Change}| > 1$.
 * **Visualisasi & Output Hasil:**
-    * **Volcano Plot ![Volcano Plot](1_volcano_plot.png):** Memetakan sebaran gen secara keseluruhan berdasarkan signifikansi statistik ($-\log_{10} \text{p-value}$) dan tingkat perubahan ekspresi ($\log_2 \text{Fold Change}$).
-    * **Heatmap ![Heatmap](2_heatmap_top50.png):** Visualisasi pola klastering dan gradien ekspresi dari 50 gen teratas (paling signifikan) antara kelompok Dengue dan Kontrol.
-    * **Gene Ontology / GO Plot ![GO Plot](3_go_enrichment_plot.png):** Analisis pengayaan fungsional gen pada domain *Biological Process* untuk melihat tugas biologis gen yang aktif.
-    * **KEGG Pathway Plot (![KEGG Plot](4_kegg_enrichment_plot.png):** Memetakan gen-gen yang berubah ke dalam jalur metabolisme atau jalur sinyal penyakit yang spesifik di dalam sel manusia.
+    * **Volcano Plot**
+    * ![Volcano Plot](1_volcano_plot.png)
+    * Memetakan sebaran gen secara keseluruhan berdasarkan signifikansi statistik ($-\log_{10} \text{p-value}$) dan tingkat perubahan ekspresi ($\log_2 \text{Fold Change}$).
+    * **Heatmap**
+    * ![Heatmap](2_heatmap_top50.png)
+    * Visualisasi pola klastering dan gradien ekspresi dari 50 gen teratas (paling signifikan) antara kelompok Dengue dan Kontrol.
+    * **Gene Ontology / GO Plot**
+    * ![GO Plot](3_go_enrichment_plot.png)
+    * Analisis pengayaan fungsional gen pada domain *Biological Process* untuk melihat tugas biologis gen yang aktif.
+    * **KEGG Pathway Plot**
+    * ![KEGG Plot](4_kegg_enrichment_plot.png)
+    * Memetakan gen-gen yang berubah ke dalam jalur metabolisme atau jalur sinyal penyakit yang spesifik di dalam sel manusia.
 
 ---
 
